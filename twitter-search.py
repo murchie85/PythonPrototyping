@@ -12,4 +12,5 @@ tweets = [p.text for p in soup.findAll('p', class_='tweet-text')]
 
 print(tweets)
 
-
+f = open('search.html', 'w')
+f.write(r.text)
