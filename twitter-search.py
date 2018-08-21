@@ -3,7 +3,7 @@ from bs4 import BeautifulSoup
 
 url = u'https://twitter.com/search?q='
 
-query = u'%40dawranliou'
+query = u'%40McMurchie'
 
 r = requests.get(url+query)
 soup = BeautifulSoup(r.text, 'html.parser')
