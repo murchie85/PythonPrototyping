@@ -14,10 +14,10 @@ while guesses_made < 6:
     guesses_made += 1
 
     if guess < number:
-        print 'Your guess is too low.'
+        print('Your guess is too low.')
 
     if guess > number:
-        print 'Your guess is too high.'
+        print('Your guess is too high.')
 
     if guess == number:
         break
