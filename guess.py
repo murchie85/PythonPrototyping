@@ -9,7 +9,7 @@ print ('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
 
 while guesses_made < 6:
 
-    guess = int(raw_input('Take a guess: '))
+    guess = int(input('Take a guess: '))
 
     guesses_made += 1
 
