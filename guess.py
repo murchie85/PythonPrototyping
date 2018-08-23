@@ -2,7 +2,7 @@ import random
 
 guesses_made = 0
 
-name = raw_input('Hello! What is your name?\n')
+name = input('Hello! What is your name?\n')
 
 number = random.randint(1, 20)
 print ('Well, {0}, I am thinking of a number between 1 and 20.'.format(name))
